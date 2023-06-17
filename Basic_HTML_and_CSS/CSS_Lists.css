@@ -1,0 +1,21 @@
+.My_Style_1 {
+	background-color: black;
+	color: darkorange;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: large;
+	font-family: roboto;
+}
+.My_Style_2 {
+	background-color: powderblue;
+	color: forestgreen;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: small;
+}
+ol {
+	list-style-type: upper-roman;
+}
+ul {
+	list-style-type: circle;
+}

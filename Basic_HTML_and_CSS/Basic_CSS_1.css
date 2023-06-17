@@ -1,0 +1,23 @@
+p {
+	color:darkorange;
+	font-family:arial;
+}
+div {
+	color:rgb(34,139,34); 
+	text-align:center;
+	font-family:courier;
+}
+.My_Style_1 {
+	background-color: black;
+	color: darkorange;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: large;
+}
+.My_Style_2 {
+	background-color: powderblue;
+	color: forestgreen;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: small;
+}
