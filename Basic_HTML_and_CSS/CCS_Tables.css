@@ -1,0 +1,37 @@
+table {
+	border: 2px solid forestgreen;
+	align: center;
+}
+td:hover {
+	background-color:white;
+	color: black;
+	font-family: courier;
+	font-size: large;
+}
+tr, th {
+	background-color: black;
+	color: darkorange;
+	font-family: arial;
+	font-size: large;
+}
+tr, td {
+	background-color: black;
+	color: lawngreen;
+	font-family: courier;
+	font-size: medium;
+}
+.My_Style_1 {
+	background-color: black;
+	color: darkorange;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: large;
+	font-family: roboto;
+}
+.My_Style_2 {
+	background-color: powderblue;
+	color: forestgreen;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: small;
+}
