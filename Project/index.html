@@ -3,12 +3,21 @@
 	<head>
 		<title>Go Giants! | Hats</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./CSS/share.css">
+		<link rel="stylesheet" href="./CSS/animations.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Francois+One&display=swap" rel="stylesheet">
+		<link rel="apple-touch-icon" sizes="180x180" href="./Images/Icons//apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./Images/Icons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./Images/Icons//favicon-16x16.png">
+        <link rel="manifest" href="./Images/Icons//site.webmanifest">
 	</head>
 	<body>
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>HOME</li></a>
 					<a href="#gallery" id="link"><li>GALLERY</li></a>
 					<a href="#join" id="link"><li>JOIN</li></a>
@@ -19,25 +28,27 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
-				<span>Go Giants!</span>
-				<p>Premium SF Giants hats!</p>
+			<div class="container">
+				<div class="text-center">
+					<span class="head-main">Go Giants!</span>
+					<p>Premium SF Giants hats!</p>
+				</div>
 			</div>
 		</div>
 		<!-- END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery">
+			<div class="container">
 				<h1>Gallery</h1>
-				<div>
+				<div class="flex-container">
 					
 					<!-- PHOTO CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_1.jpg" alt="Orange/Black">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Orange main, black bill, black SF <br>$20.99<sup>*</p>
 							</div>
 						</div>
@@ -45,11 +56,11 @@
 					<!-- END PHOTO CONTAINER 1 -->
 					
 					<!-- PHOTO CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_2.jpg" alt="Orange/Orange">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Orange main, white trim<br>$20.99<sup>*</p>
 							</div>
 						</div>
@@ -57,11 +68,11 @@
 					<!-- END PHOTO CONTAINER 2 -->
 					
 					<!-- PHOTO CONTAINER 3 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_3.jpg" alt="White/Black">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>White main, black bill, black SF with orange trim<br>$21.99<sup>*</p>
 							</div>
 						</div>
@@ -69,11 +80,11 @@
 					<!-- END PHOTO CONTAINER 3 -->
 					
 					<!-- PHOTO CONTAINER 4 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_4.jpg" alt="Camo Full">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Camo main, full back<br>$21.99<sup>*</p>
 							</div>
 						</div>
@@ -81,11 +92,11 @@
 					<!-- END PHOTO CONTAINER 4 -->
 					
 					<!-- PHOTO CONTAINER 5 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_5.jpg" alt="Camo/Black Mesh/White">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Camo, black mesh back, white SF<br>$20.99<sup>*</p>
 							</div>
 						</div>
@@ -93,11 +104,11 @@
 					<!-- END PHOTO CONTAINER 5 -->
 					
 					<!-- PHOTO CONTAINER 6 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_6.jpg" alt="Black/White Mesh/Orange">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Black main, white mesh back, orange SF<br><strike style="color:red">$22.99</strike>&nbsp;$19.00<sup>*</p>
 							</div>
 						</div>
@@ -105,11 +116,11 @@
 					<!-- END PHOTO CONTAINER 6 -->
 					
 					<!-- PHOTO CONTAINER 7 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_7.jpg" alt="Black/ASG">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Black main, orange SF,<strong>2019 ASG Stamp</strong><br>$24.99<sup>*</p>
 							</div>
 						</div>
@@ -117,11 +128,11 @@
 					<!-- END PHOTO CONTAINER 7 -->
 					
 					<!-- PHOTO CONTAINER 8 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_8.jpg" alt="Black Bucket Deco">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Black main, bucket style, random script decoration<br>$15.99<sup>*</p> 
 							</div>
 						</div>
@@ -129,11 +140,11 @@
 					<!-- END PHOTO CONTAINER 8 -->
 					
 					<!-- PHOTO CONTAINER 9 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./Images/Thumb/thumbnail_9.jpg" alt="Black">
-							<div>
-								<h3>Click to Enlarge</h3>
+							<div class="photo-overlay">
+								<h3 class="white-head">Click to Enlarge</h3>
 								<p>Black main, white trim, fitted (contact for sizing)<br>$32.99<sup>*</p>
 							</div>
 						</div>
@@ -146,27 +157,28 @@
 		<!-- END GALLERY -->
 		
 		<!-- JOIN -->
-		<section>
-			<div id="join">
-				<div>
-					<h1>GET MORE INFORMATION</h1>
-					<div>
-						<h2><span>Wear the perfect hat to support the best team in MLB.</span>
+		<section id="join">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">GET MORE INFORMATION</h1>
+					<div class="contact">
+						<h2>
+							<span>Wear the perfect hat to support the best team in MLB.</span>
 							<br />Find your fit today!
 						</h2>
-						<p>
-							Subscribe to our contact list for updates on apparel from Go Giants!.
+						<p class="join-text">
+							Subscribe to our contact list for updates on apparel from Go Giants!
 						</p>
-						<div>
+						<div class="form-join">
 							<form action="" method="post">
-								<input class="contact" type="text" value="First Name" name="FName">
-								<input class="contact" type="text" value="Last Name" name="LName">
-								<input class="contact" type="email" value="Email Address" name="Email">
-								<input class="contact" type="phonenumber" value="Phone Number" name="Phone">
+								<input class="maillist" type="text" value="First Name" name="FName">
+								<input class="maillist" type="text" value="Last Name" name="LName">
+								<input class="maillist" type="text" value="Email Address" name="Email">
+								<input class="maillist" type="text" value="Phone Number" name="Phone">
 								<div class="form-spacer">
 									<label class="terms">Terms and Conditions</label>
 								</div>
-								<div>
+								<div class="submit">
 									<input type="submit" value="Go Giants!">
 								</div>
 							</form>
@@ -178,7 +190,7 @@
 		<!-- END JOIN -->
 		
 		<!-- FOOTER -->
-		<div>
+		<div id="footer">
 			www.GoGiants.SF &nbsp;|&nbsp; &copy; 2023
 			<br><i>All gallery images pulled from mlbshop.com/san-francisco-giants</i>
 		</div>
