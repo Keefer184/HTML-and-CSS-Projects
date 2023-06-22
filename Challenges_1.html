@@ -4,14 +4,101 @@
         <title>Challenges</title>
         <meta charset="utf-8">
         <meta name="author" content="Matt">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="challenges.css">
     </head>
     <body>
         <header>
             <h4>IMG Challenge</h4>
         </header>
+        <!--NAV BAR-->
+        <div class="navbar">
+            <a href="#Home">Home</a> <!--No section ids yet, so links are inactive-->
+            <a href="#About">About</a>
+            <a href="#Contact">Contact</a>
+        </div>
+        <!--END NAV BAR-->
+
+        <!--VIDEO-->
+        <div class="container">
+            <video autoplay muted loop><source src="beach_and_puppy.mp4" type="video/mp4"></video>
+            <div class="text-overlay">
+                Where all your dreams come true!
+            </div>
+        </div>
+
+        <!--IMG-->
         <div class="container">
             <img class="center" src="./Buttercup.jpg" alt="Buttercup">
+            <div class="text-overlay">
+            <h6>Buttercup, the sweetest!</h6>
+            </div>
         </div>
+        <!--END IMAGE-->
+
+        <!--TABLE-->
+        <div class="container">
+            <table class="table">
+                <tr>
+                    <th>Name of Dog</th>
+                    <th>Breed</th>
+                    <th>Rank</th>
+                </tr>
+                <tr>
+                    <td>Buttercup</td>
+                    <td>Lab Mix</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Luci</td>
+                    <td>Lab Mix</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Parker</td>
+                    <td>Shepard Mix</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Wally Minkus</td>
+                    <td>Rot Mix</td>
+                    <td>4</td>
+                </tr>
+                    
+            </table>
+        </div>
+
+        <!--END TABLE-->
+
+        <!--COLUMNS-->
+        <div class="row">
+            <div class="column">
+                <div class="container_1">
+                    <img src="./One-Page_Website/Images/background.jpg" alt="Dogs" class="image">
+                    <div class="overlay">
+                        <div class="text-over-img">Puppies are the best!</div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <h1>An ode to dogs</h1>
+                <p>Oh puppy, oh puppy<br>
+                    You light up my life<br>
+                    You are the sweetest thing,<br>
+                    All made up of fluff.<br>
+                    <br>
+                    Where do you run to?<br>
+                    In your wildest dreams,<br>
+                    Is it home? Is it nature?<br>
+                    Or is it in between?</p>
+            </div>
+        </div>
+
+        <!--FOOTER-->
+        <footer class="footer-text">
+            <p>All pictures of Buttercup are the property of her owner.</p>
+        </footer>
+        <!--END FOOTER-->
+
     </body>
 </html>
