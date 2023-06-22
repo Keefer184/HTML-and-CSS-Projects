@@ -1,0 +1,11 @@
+.container img { /*FOR ONLY THE IMAGE DESCRIBED IN THE CONTAINER CLASS*/
+    filter:drop-shadow(30px 20px 10px 0 red);
+    border-radius: 15px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+}
