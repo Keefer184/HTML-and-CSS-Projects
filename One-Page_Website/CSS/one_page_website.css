@@ -5,6 +5,7 @@ html {
     font-family: 'Shadows Into Light', cursive;
     font-size: large;
     background-color: #72d303c2;
+    scroll-behavior: smooth;
 }
 
 p{
