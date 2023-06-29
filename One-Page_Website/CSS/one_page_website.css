@@ -119,6 +119,17 @@ p{
     color:#fff;
 }
 
+#home .container{
+    animation: zoominout 15s forwards;
+    z-index:-1;
+}
+
+@keyframes zoominout{
+    0% {transform: scale(1,1);}
+    50% {transform: scale(1.2, 1.2);}
+    100% {transform: scale(1,1);}
+}
+
 .head-main {
     text-shadow:2px 4px 5px rgba(0,0,0,0.9);
     font-variant:small-caps;
